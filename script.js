@@ -204,6 +204,7 @@
       const serviceLabels = {
         cctv: "CCTV Installation",
         alarm: "Intrusion Alarm System",
+        access: "Access Control System",
         networking: "Networking Solutions",
         fire: "Fire Alarm System",
         website: "Website Services",
@@ -223,7 +224,7 @@
       showAlert("Redirecting to WhatsApp…", "success");
       setTimeout(() => {
         window.open(
-          `https://wa.me/919008458177X?text=${whatsappText}`,
+          `https://wa.me/919008458177?text=${whatsappText}`,
           "_blank",
         );
       }, 800);
